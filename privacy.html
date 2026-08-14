@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Nomentra</title>
+<meta name="description" content="How Nomentra handles your location and photo data. Everything stays on your device.">
+<style>
+  :root{
+    --bg:#F7F2F8; --surface:#FCFAFD; --raised:#FFFFFF; --stroke:#EDE3EF;
+    --text:#2B2430; --text2:#6F6376; --text3:#AFA3B5;
+    --accent:#A21CAF; --green:#4D7C0F; --green-fill:#84CC16; --home:#C9C0CD;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#131015; --surface:#1C1820; --raised:#262029; --stroke:#332C38;
+      --text:#F5F2F7; --text2:#A79FAD; --text3:#837B8A;
+      --accent:#E879F9; --green:#A3E635; --green-fill:#A3E635; --home:#7A7284;
+    }
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    background:var(--bg); color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",system-ui,sans-serif;
+    font-size:17px; line-height:1.6; -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:760px;margin:0 auto;padding:64px 24px 96px}
+  .mast{font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--text2);margin-bottom:40px}
+  .mast a{color:var(--text2);border:0}
+  h1{font-size:clamp(30px,5.5vw,44px);font-weight:800;letter-spacing:-0.01em;line-height:1.12;color:var(--accent);margin:0 0 16px}
+  .lede{font-size:19px;color:var(--text2);margin:0;max-width:54ch}
+  .updated{font-size:13px;color:var(--text3);margin-top:14px}
+
+  .journey{position:relative;margin-top:56px;padding-left:34px}
+  .journey::before{content:"";position:absolute;left:5px;top:9px;bottom:9px;width:1px;background:var(--green);opacity:.55}
+  section{position:relative;padding:0 0 44px}
+  section::before{content:"";position:absolute;left:-34px;top:8px;width:11px;height:11px;border-radius:50%;background:var(--green-fill)}
+  section:last-of-type{padding-bottom:0}
+
+  h2{font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--text3);margin:0 0 14px}
+  p{margin:0 0 16px;max-width:62ch}
+  p.soft{color:var(--text2)}
+  p:last-child{margin-bottom:0}
+  ul{margin:0 0 16px;padding-left:20px;max-width:62ch}
+  li{margin-bottom:10px}
+  strong{font-weight:700}
+  a{color:var(--accent);text-decoration:none;border-bottom:1px solid color-mix(in srgb,var(--accent) 35%,transparent)}
+  a:hover{border-bottom-color:var(--accent)}
+  .card{background:var(--raised);border:1px solid var(--stroke);border-radius:16px;padding:22px 24px}
+  .card p{margin-bottom:6px}
+  .addr{color:var(--text2);font-size:15px;line-height:1.7}
+  footer{margin-top:64px;padding-top:24px;border-top:1px solid var(--stroke);color:var(--text3);font-size:13px;line-height:1.7}
+</style>
+</head>
+<body>
+  <div class="wrap">
+
+    <div class="mast"><a href="index.html">Ossian House Holding Ltd</a></div>
+
+    <h1>Privacy Policy</h1>
+    <p class="lede">Nomentra is built so that your travel history stays yours. This page explains exactly what the app reads, what it keeps, and what leaves your phone.</p>
+    <p class="updated">Last updated 14 August 2026 · Applies to Nomentra for iOS</p>
+
+    <div class="journey">
+
+      <section>
+        <h2>The short version</h2>
+        <p>Nomentra reads location evidence that is already on your iPhone, and — with your permission — keeps collecting it by GPS as your days happen. It turns that evidence into a day-by-day record of the countries you have been in. That record is stored on your device.</p>
+        <p><strong>Nomentra does not send your location or photo data to us or to anyone else.</strong> There is no account to create, and we do not receive a copy of your history.</p>
+      </section>
+
+      <section>
+        <h2>What the app reads</h2>
+        <ul>
+          <li><strong>Location, including GPS.</strong> With your permission, Nomentra uses your iPhone's location services — GPS, along with the significant-change and visit updates iOS provides — to keep your travel history building day by day. This continues in the background, including while the app is closed, so that today and every day after it are recorded as they happen.
+          <br><br><strong>Exact coordinates are not stored.</strong> Each reading is resolved to a country on your device, and only that conclusion is kept. Nomentra records where you have been; it never predicts where you will go.</li>
+          <li><strong>Photo and video metadata.</strong> With your permission, Nomentra reads the dates and location metadata attached to items in your photo library, to reconstruct where you were before you installed the app. <strong>Your media stays in your photo library.</strong> Nomentra does not copy, upload or store your photos.</li>
+          <li><strong>Corrections you make.</strong> When you correct a day, Nomentra records the correction alongside the original evidence. Corrections are stored on your device.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Where your data lives</h2>
+        <p>On your iPhone. Nomentra determines countries using boundary data bundled inside the app, so the work happens offline.</p>
+        <p>The app contains no analytics SDK, no advertising SDK, and no third-party tracking libraries. We do not build a profile of you, and we have nothing to sell to anyone.</p>
+        <p class="soft">If your device is backed up through iCloud or to your computer, Nomentra's data is included in that backup, under Apple's terms and your own iCloud settings — not ours.</p>
+      </section>
+
+      <section>
+        <h2>Permissions, and taking them back</h2>
+        <p>Nomentra asks for location access and photo library access. Both are optional, and you can withdraw either at any time in <strong>Settings → Privacy &amp; Security</strong> on your iPhone.</p>
+        <p>Withdrawing a permission stops new evidence from that source. It does not delete what has already been reconstructed — you can remove that in the app, or by deleting the app.</p>
+      </section>
+
+      <section>
+        <h2>Deleting your data</h2>
+        <p>Deleting Nomentra removes its data from your device. Because we never receive a copy, there is nothing held by us to delete and nothing for us to return.</p>
+      </section>
+
+      <section>
+        <h2>Your rights</h2>
+        <p>Under the GDPR you have rights of access, correction, erasure and portability over your personal data. In Nomentra's case those rights are exercised directly on your device, because that is the only place your data exists.</p>
+        <p>If you believe we hold personal data about you, or you want to raise a concern, write to us at the address below. You also have the right to complain to your local data protection authority.</p>
+      </section>
+
+      <section>
+        <h2>Children</h2>
+        <p>Nomentra is not directed at children and we do not knowingly collect data from children.</p>
+      </section>
+
+      <section>
+        <h2>Changes to this policy</h2>
+        <p>If Nomentra ever gains a feature that sends data off your device — for example optional sync between your own devices — this page will be updated before that feature ships, and the change will be explained in the app.</p>
+      </section>
+
+      <section>
+        <h2>Contact</h2>
+        <div class="card">
+          <p><a href="mailto:developer@ossianhouse.com">developer@ossianhouse.com</a></p>
+          <p class="addr">
+            Ossian House Holding Ltd<br>
+            Pavlou Valdaseridi 2A, 1st floor<br>
+            6018 Larnaca, Cyprus<br>
+            Company number HE 490388
+          </p>
+        </div>
+      </section>
+
+    </div>
+
+    <footer>
+      © 2026 Ossian House Holding Ltd · Registered in Cyprus, HE 490388
+    </footer>
+
+  </div>
+</body>
+</html>

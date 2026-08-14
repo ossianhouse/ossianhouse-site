@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support — Nomentra</title>
+<meta name="description" content="Get help with Nomentra. Contact Ossian House Holding Ltd.">
+<style>
+  :root{
+    --bg:#F7F2F8; --surface:#FCFAFD; --raised:#FFFFFF; --stroke:#EDE3EF;
+    --text:#2B2430; --text2:#6F6376; --text3:#AFA3B5;
+    --accent:#A21CAF; --green:#4D7C0F; --green-fill:#84CC16; --home:#C9C0CD;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#131015; --surface:#1C1820; --raised:#262029; --stroke:#332C38;
+      --text:#F5F2F7; --text2:#A79FAD; --text3:#837B8A;
+      --accent:#E879F9; --green:#A3E635; --green-fill:#A3E635; --home:#7A7284;
+    }
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    background:var(--bg); color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",system-ui,sans-serif;
+    font-size:17px; line-height:1.6; -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:760px;margin:0 auto;padding:64px 24px 96px}
+  .mast{font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--text2);margin-bottom:40px}
+  .mast a{color:var(--text2);border:0}
+  h1{font-size:clamp(30px,5.5vw,44px);font-weight:800;letter-spacing:-0.01em;line-height:1.12;color:var(--accent);margin:0 0 16px}
+  .lede{font-size:19px;color:var(--text2);margin:0;max-width:54ch}
+
+  .journey{position:relative;margin-top:56px;padding-left:34px}
+  .journey::before{content:"";position:absolute;left:5px;top:9px;bottom:9px;width:1px;background:var(--green);opacity:.55}
+  section{position:relative;padding:0 0 44px}
+  section::before{content:"";position:absolute;left:-34px;top:8px;width:11px;height:11px;border-radius:50%;background:var(--green-fill)}
+  section:last-of-type{padding-bottom:0}
+
+  h2{font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--text3);margin:0 0 14px}
+  p{margin:0 0 16px;max-width:62ch}
+  p.soft{color:var(--text2)}
+  p:last-child{margin-bottom:0}
+  ul{margin:0 0 16px;padding-left:20px;max-width:62ch}
+  li{margin-bottom:10px}
+  strong{font-weight:700}
+  a{color:var(--accent);text-decoration:none;border-bottom:1px solid color-mix(in srgb,var(--accent) 35%,transparent)}
+  a:hover{border-bottom-color:var(--accent)}
+  .card{background:var(--raised);border:1px solid var(--stroke);border-radius:16px;padding:22px 24px}
+  .card p{margin-bottom:6px}
+  .addr{color:var(--text2);font-size:15px;line-height:1.7}
+  footer{margin-top:64px;padding-top:24px;border-top:1px solid var(--stroke);color:var(--text3);font-size:13px;line-height:1.7}
+</style>
+</head>
+<body>
+  <div class="wrap">
+
+    <div class="mast"><a href="index.html">Ossian House Holding Ltd</a></div>
+
+    <h1>Support</h1>
+    <p class="lede">Questions, problems, or something Nomentra got wrong about your travel history — write to us and a person will read it.</p>
+
+    <div class="journey">
+
+      <section>
+        <h2>Get in touch</h2>
+        <div class="card">
+          <p><a href="mailto:developer@ossianhouse.com">developer@ossianhouse.com</a></p>
+          <p class="addr">We aim to reply within two working days.</p>
+        </div>
+      </section>
+
+      <section>
+        <h2>What to include</h2>
+        <p>It helps us a great deal if you can tell us:</p>
+        <ul>
+          <li>Your iPhone model and iOS version</li>
+          <li>The version of Nomentra you are running</li>
+          <li>What you expected to happen, and what happened instead</li>
+          <li>If it concerns a particular day or country, which one</li>
+        </ul>
+        <p class="soft">Please do not send screenshots containing anything you would rather keep private. We do not need your travel history to help you.</p>
+      </section>
+
+      <section>
+        <h2>A day looks wrong</h2>
+        <p>Nomentra reconstructs your history from the evidence available on your phone, and it shows you when it is uncertain. If a day is wrong, you can correct it in the app — your correction is kept alongside the original evidence, and the original is never destroyed.</p>
+        <p>If corrections are not sticking, or a whole stretch of time looks wrong, tell us and we will look into it.</p>
+      </section>
+
+      <section>
+        <h2>Privacy</h2>
+        <p>Nomentra keeps your travel history on your device and does not send it to us. Full detail is on the <a href="privacy.html">privacy policy</a> page.</p>
+      </section>
+
+      <section>
+        <h2>Company</h2>
+        <div class="card">
+          <p class="addr">
+            Ossian House Holding Ltd<br>
+            Pavlou Valdaseridi 2A, 1st floor<br>
+            6018 Larnaca, Cyprus<br>
+            Company number HE 490388
+          </p>
+        </div>
+      </section>
+
+    </div>
+
+    <footer>
+      © 2026 Ossian House Holding Ltd · Registered in Cyprus, HE 490388
+    </footer>
+
+  </div>
+</body>
+</html>
